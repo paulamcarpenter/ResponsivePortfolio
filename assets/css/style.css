@@ -1,0 +1,179 @@
+body {
+  background-color: #efeee7;
+  /*width: 960px;*/
+  margin: 20px;
+  padding: 20px;
+  font-family: "Georgia","Times New Roman", Times, serif; 
+  font-size: 18px;
+  font-color: #777777;
+  line-height: 150%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: inline;
+  float: right;
+  padding: 5px;
+}
+
+
+h1 {
+  color: #efeee7;
+  background-color: #4aaaa5;
+  margin: 0;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+a {
+  color: #efeee7;
+}
+
+#menu {
+  float: right;
+  width: 35%;
+  color: #efeee7;
+  background-color: #4aaaa5;
+  margin: 0;
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+
+.container1 {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.container2 {
+  width: 270px;
+  padding-bottom: 60px;
+}
+
+.media-body {
+  color: black;
+  text-align: top;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-family: "Georgia","Times New Roman", Times, serif; 
+  font-color: #777777;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  margin-right: 20px;
+  height: 200px;
+  width: 200px;
+}
+
+footer {
+  color: #efeee7;
+  background-color: #4aaaa5;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  text-align: center;
+  clear: both;      
+}
+
+@media screen and (max-width: 980px) {
+  body {
+    background-color: lightblue;
+  }
+  .container1 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .container2 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-bio,
+  #contact-info {
+    width: 100%;
+  }
+  #contact-info {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: lightgreen;
+  }
+  .container1 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .container2 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-bio,
+  #contact-info {
+    width: 100%;
+  }
+  #contact-info {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    background-color: lightpurple;
+  }
+  .container1 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .container2 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-bio,
+  #contact-info {
+    width: 100%;
+  }
+  #contact-info {
+    margin-top: 40px;
+  }
+}
